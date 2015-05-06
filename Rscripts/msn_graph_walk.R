@@ -273,7 +273,7 @@ ent_plot <- ggplot(melt(ent_table),
   theme(legend.title = element_blank(), legend.position = "top",
         panel.grid = element_blank())
 ent_plot
-ggsave(filename = "../main_article/poppr_frontiers_files/custom_figures/entropy.pdf",plot = ent_plot, width = 80, height = 50, units = "mm", scale = 1.5)
+## ggsave(filename = "../main_article/poppr_frontiers_files/custom_figures/entropy.pdf",plot = ent_plot, width = 80, height = 50, units = "mm", scale = 1.5)
 #' 
 #+ H3N2_msns, cache = TRUE, fig.width = 10, fig.height = 10
 set.seed(20150427)
@@ -281,10 +281,10 @@ HLAYOUT <- get_layout(hmsn.ties$graph)
 plot_poppr_msn(hc, hmsn.ties, layout = HLAYOUT, inds = "none", nodebase = 1.9,
                gadj = 25, quantiles = FALSE, nodelab = 1e3, wscale = FALSE)
 
-pdf("../main_article/poppr_frontiers_files/custom_figures/H3N2-ties.pdf")
-plot_poppr_msn(hc, hmsn.ties, layout = HLAYOUT, inds = "none", nodebase = 1.9,
-               gadj = 25, quantiles = FALSE, nodelab = 1e3, wscale = FALSE)
-dev.off()
+## pdf("../main_article/poppr_frontiers_files/custom_figures/H3N2-ties.pdf")
+## plot_poppr_msn(hc, hmsn.ties, layout = HLAYOUT, inds = "none", nodebase = 1.9,
+##                gadj = 25, quantiles = FALSE, nodelab = 1e3, wscale = FALSE)
+## dev.off()
 
 plot(hmsn.communities.ties, hmsn.ties$graph, 
      vertex.size = log(V(hmsn.ties$graph)$size, 1.9) + 3, 
@@ -295,10 +295,10 @@ HLAYOUT <- get_layout(hmsn.noties$graph)
 plot_poppr_msn(hc, hmsn.noties, layout = HLAYOUT, inds = "none", nodebase = 1.9,
                gadj = 25, quantiles = FALSE, nodelab = 1e3, wscale = FALSE)
 
-pdf("../main_article/poppr_frontiers_files/custom_figures/H3N2-noties.pdf")
-plot_poppr_msn(hc, hmsn.noties, layout = HLAYOUT, inds = "none", nodebase = 1.9,
-               gadj = 25, quantiles = FALSE, nodelab = 1e3, wscale = FALSE)
-dev.off()
+## pdf("../main_article/poppr_frontiers_files/custom_figures/H3N2-noties.pdf")
+## plot_poppr_msn(hc, hmsn.noties, layout = HLAYOUT, inds = "none", nodebase = 1.9,
+##                gadj = 25, quantiles = FALSE, nodelab = 1e3, wscale = FALSE)
+## dev.off()
 
 plot(hmsn.communities.noties, hmsn.noties$graph, 
      vertex.size = log(V(hmsn.noties$graph)$size, 1.9) + 3, 
@@ -311,14 +311,14 @@ scatter(dapc.H3N2, pch=19, cstar=0, mstree=TRUE, lwd=2, lty=2, clabel = FALSE,
         col = virusPal(6), scree.da = FALSE)
 points(dapc.H3N2$ind.coord[, 1:2], pch = 21, bg = NA)
 legend("topleft", legend = popNames(hc), pt.bg = virusPal(6), pch = 21)
-pdf("../main_article/poppr_frontiers_files/custom_figures/H3N2-scatter.pdf", 
-    width = 4*3.14961,
-    height = 3*3.14961)
-scatter(dapc.H3N2, pch=19, cstar=0, mstree=TRUE, lwd=2, lty=2, clabel = FALSE,
-        col = virusPal(6), scree.da = FALSE)
-points(dapc.H3N2$ind.coord[, 1:2], pch = 21, bg = NA)
-legend("topleft", legend = popNames(hc), pt.bg = virusPal(6), pch = 21)
-dev.off()
+## pdf("../main_article/poppr_frontiers_files/custom_figures/H3N2-scatter.pdf", 
+##     width = 4*3.14961,
+##     height = 3*3.14961)
+## scatter(dapc.H3N2, pch=19, cstar=0, mstree=TRUE, lwd=2, lty=2, clabel = FALSE,
+##         col = virusPal(6), scree.da = FALSE)
+## points(dapc.H3N2$ind.coord[, 1:2], pch = 21, bg = NA)
+## legend("topleft", legend = popNames(hc), pt.bg = virusPal(6), pch = 21)
+## dev.off()
 #'
 #' ## Session Info
 options(width = 100)
