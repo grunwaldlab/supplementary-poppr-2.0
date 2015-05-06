@@ -44,8 +44,7 @@ spanning trees with and without reticulation. Two data sets are used:
 
  1. *Phytophthora ramorum* from the [Oregon Sudden Oak Death
     Epidemic](http://dx.doi.org/10.5281/zenodo.13007) combined with [Nursery
-    isolates from Oregon and California](http://journals.plos.org/plospathogens/
-    article?id=10.1371/journal.ppat.1000583).
+    isolates from Oregon and California](http://www.plospathogens.org/article/info%3Adoi%2F10.1371%2Fjournal.ppat.1000583).
  
  2. Sequences from the HA segment of the H3N2 flu virus from the package
     [adegenet](https://github.com/thibautjombart/adegenet).
