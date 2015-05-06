@@ -12,3 +12,13 @@ make boot
 ```
 
 and this will install all the packages necessary.
+
+# Folders
+
+## Rscripts
+
+The folder called **Rscripts** contain R scripts, corresponding HTML files and cached information used in the manuscript. Please see `Rscritps/README` for more details.
+
+## images
+
+The folder called **images** contains HTML animations of dendrograms collapsing multilocus genotypes by genetic distance. 
