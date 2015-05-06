@@ -19,6 +19,12 @@ scripts. Documentation for each function is written in roxygen2's formatting
 above each function. Functions intended for internal use have the keyword
 "internal".
 
+To use these functions without downloading the repository, you can use devtools:
+
+```R
+devtools::source_url("https://raw.githubusercontent.com/grunwaldlab/supplementary-poppr-2.0/master/Rscripts/my_functions.R")
+```
+
 ## figure\_one.R
 
 Construction of figure 1 with a walkthrough of the concepts using example data.
