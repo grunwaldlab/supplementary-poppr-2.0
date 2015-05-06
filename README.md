@@ -2,3 +2,13 @@
 
 This repository contains supplemental materials relating
 to the manuscript submitted to Frontiers called "Novel R tools for analysis of genome-wide population genetic data with emphasis on clonality" By Zhian Kamvar (@zkamvar), Jonah Brooks (@JonahBrooks), and Nik Grunwald (@grunwald).
+
+# Setup
+
+To use the scripts in this repository, you will need the latest versions of poppr and adegenet. In the main folder, you can run 
+
+```sh
+make boot
+```
+
+and this will install all the packages necessary.
