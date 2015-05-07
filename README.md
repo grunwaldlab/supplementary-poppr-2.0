@@ -5,7 +5,7 @@ to the manuscript submitted to Frontiers called "Novel R tools for analysis of g
 
 # Citation
 
-Cite this work as:
+Cite this supplementary material as:
 
 > ZN Kamvar, JC Brooks, and NJ Grünwald. 2015. Supplementray Material for Frontiers Plant Genetics and
 Genomics 'Novel R tools for analysis of genome-wide population genetic data with emphasis on clonality'. DOI: XXX.
