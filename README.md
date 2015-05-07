@@ -35,6 +35,6 @@ devtools::install_github("grunwaldlab/poppr@2.0-rc")
 
 The folder called **Rscripts** contain R scripts, corresponding HTML files, and cached information used for the manuscript and supplementary information. Please see `Rscritps/README` for more details.
 
-## images
+## Images
 
 The folder called **images** contains HTML animations of dendrograms collapsing multilocus genotypes by genetic distance. 
