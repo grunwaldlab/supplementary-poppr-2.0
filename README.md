@@ -17,7 +17,7 @@ and this will install all the packages necessary.
 
 ## Rscripts
 
-The folder called **Rscripts** contain R scripts, corresponding HTML files and cached information used in the manuscript. Please see `Rscritps/README` for more details.
+The folder called **Rscripts** contain R scripts, corresponding HTML files, and cached information used for the manuscript and supplementary information. Please see `Rscritps/README` for more details.
 
 ## images
 
