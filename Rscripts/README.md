@@ -35,7 +35,10 @@ devtools::source_url("https://raw.githubusercontent.com/grunwaldlab/supplementar
 
 Construction of figure 1 with a walkthrough of the concepts using example data.
 
+[View figure\_one.html here (courtesy of htmlpreview.github.io)](http://htmlpreview.github.io/?https://raw.githubusercontent.com/grunwaldlab/supplementary-poppr-2.0/master/Rscripts/figure_one.html)
+
 ## mlg\_filter\_stats.R
+#### supplementary information for section: Clonal Identification
 
 This script's purpose is to explore how the MLG filtering methods perform in two
 ways:
@@ -44,6 +47,7 @@ ways:
  2. With simulated data
 
 ## msn\_graph\_walk.R
+#### supplementary information for section: Minimum Spanning Networks with Reticulation
 
 The purpose of this script is to demonstrate the differences between minimum
 spanning trees with and without reticulation. Two data sets are used:
@@ -64,6 +68,7 @@ We use the [infoMAP](http://www.pnas.org/content/105/4/1118)
 and then compared the entropy.
 
 ## index\_of\_association.R
+#### supplementary information for section: Index of Assocation
 
 This file simulates data sets that contain population structure and also
 simulates clonal data sets. These are compared with panmictic data sets with a
