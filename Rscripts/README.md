@@ -10,7 +10,13 @@ make boot
 Note that all html files have `devtools::session_info()` called at the end,
 which gives the R version along with the package versions. For packages
 installed via GitHub, the specific commit address is documented and can be used
-with the function `devtools::install_github()`.
+with the function `devtools::install_github()`. In the manuscript, the *poppr*
+version is stated as being version `2.0` whereas at the bottom of all of these
+html files, the version will appear as `1.1.4.99.x`. This is intentional. 
+`1.1.4.99` is to signify that this is a development version after version `1.1.4`
+and the number that comes after 99 indicates the number of changes that have
+occurred since verion `1.1.4`. The version will increase to 2.0 once it has
+been submitted to CRAN.
 
 ## my\_functions.R
 
