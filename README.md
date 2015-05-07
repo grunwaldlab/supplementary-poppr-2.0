@@ -3,6 +3,13 @@
 This repository contains supplemental materials relating
 to the manuscript submitted to Frontiers called "Novel R tools for analysis of genome-wide population genetic data with emphasis on clonality" By Zhian Kamvar (@zkamvar), Jonah Brooks (@JonahBrooks), and Nik Grunwald (@grunwald).
 
+# Citation
+
+Cite this work as:
+
+> ZN Kamvar, JC Brooks, and NJ Grünwald. 2015. Supplementray Material for Frontiers Plant Genetics and
+Genomics 'Novel R tools for analysis of genome-wide population genetic data with emphasis on clonality'. DOI: XXX.
+
 # Setup
 
 To use the scripts in this repository, you will need the latest versions of poppr and adegenet. 
