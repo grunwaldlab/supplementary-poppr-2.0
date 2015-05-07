@@ -5,13 +5,22 @@ to the manuscript submitted to Frontiers called "Novel R tools for analysis of g
 
 # Setup
 
-To use the scripts in this repository, you will need the latest versions of poppr and adegenet. In the main folder, you can run 
+To use the scripts in this repository, you will need the latest versions of poppr and adegenet. 
+
+### From a unix shell:
 
 ```sh
 make boot
 ```
+### From within R:
 
-and this will install all the packages necessary.
+```R
+local({r <- getOption("repos"); r["CRAN"] <- "http://cran.at.r-project.org"; options(repos = r)})
+install.packages(c("ape", "knitr", "rmarkdown", "animation", "devtools"))
+devtools::install_github(c("thibautjombart/adegenet", "emmanuelparadis/pegas/pegas", "KlausVigo/phangorn"))
+
+devtools::install_github("grunwaldlab/poppr@2.0-rc")
+```
 
 # Folders
 
