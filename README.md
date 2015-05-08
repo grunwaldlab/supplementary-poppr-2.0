@@ -1,13 +1,13 @@
 # Supplementary Material for poppr 2.0 manuscript
 
 This repository contains supplemental materials relating
-to the manuscript submitted to Frontiers called "Novel R tools for analysis of genome-wide population genetic data with emphasis on clonality" By Zhian Kamvar (@zkamvar), Jonah Brooks (@JonahBrooks), and Nik Grunwald (@grunwald).
+to the manuscript submitted to Frontiers called "Novel R tools for analysis of genome-wide population genetic data with emphasis on clonality" By Zhian N. Kamvar ([@zkamvar](https://github.com/zkamvar)), Jonah C. Brooks ([@JonahBrooks](https://github.com/JonahBrooks)), and Niklaus J. Grünwald ([@grunwald](https://github.com/grunwald)).
 
 # Citation
 
-Cite this supplementary material as:
+Please cite this supplementary material as:
 
-> ZN Kamvar, JC Brooks, and NJ Grünwald. 2015. Supplementray Material for Frontiers Plant Genetics and
+> ZN Kamvar, JC Brooks, and NJ Grünwald. 2015. Supplementary Material for Frontiers Plant Genetics and
 Genomics 'Novel R tools for analysis of genome-wide population genetic data with emphasis on clonality'. DOI: XXX.
 
 # Setup
